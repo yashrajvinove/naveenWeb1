@@ -7,7 +7,7 @@ ${SiteUrl}     https://naveenautomationlabs.com/opencart/index.php?route=account
 ${Browser}     edge
 ${Fname}       Yash
 ${Lname}       Raj
-${Email}      yash6@yopmail.com
+${Email}      yash7@yopmail.com
 ${TeleNum}      9876543212
 ${Pass}         yash@123
 ${CNF_Pass}     yash@123

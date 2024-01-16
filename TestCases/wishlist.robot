@@ -32,4 +32,4 @@ LoginFunc
    Click_Remove
    Click_continue1
 
-   Sleep    10
+   Sleep    3

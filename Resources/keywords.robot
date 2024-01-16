@@ -86,6 +86,89 @@ Click_continue1
 Click_Remove
     Click Element    ${RemoveWishlist}
 
+Click_ATCCmpr
+    Click Element    ${ATCcompare}
+
+Get_getTextMac
+     get webelement   ${ATCMac}
+
+UPdateQuantiry
+     click element    ${UpdateQuantity}
 
 
+Enter updateQuantiryV
+     [Arguments]    ${updateQuantiryV}
+     Input Text     ${UpdateQuantity}      ${updateQuantiryV}
 
+Click_Checkout1
+     Click Element    ${ChecKout}
+
+Click_FirstNameC
+    Click Element    ${FirstNameCheck}
+
+Enter FirstNameC
+     [Arguments]    ${FirstNameC}
+     Input Text     ${FirstNameCheck}      ${FirstNameC}
+
+Click_LastNameC
+    Click Element    ${LastNameCheck}
+
+Enter LastNameC
+     [Arguments]    ${LastNameC}
+     Input Text     ${LastNameCheck}      ${LastNameC}
+
+
+Click_CompanyC
+      Click Element    ${CompanyCheck}
+
+Enter CompanyC
+     [Arguments]    ${CompanyC}
+     Input Text     ${CompanyCheck}      ${CompanyC}
+
+Click_Address1C
+    Click Element    ${Address1Check}
+
+Enter Address1C
+     [Arguments]    ${Address1C}
+     Input Text     ${Address1Check}      ${Address1C}
+
+
+Click_Address2C
+    Click Element    ${Address2Check}
+
+Enter Address2C
+     [Arguments]    ${Address2C}
+     Input Text     ${Address2Check}      ${Address2C}
+
+Click_CityC
+    Click Element    ${CityCheck}
+
+Enter CityC
+     [Arguments]    ${CityC}
+     Input Text     ${CityCheck}      ${CityC}
+
+Click_PostCodeC
+    Click Element    ${PostCodeCheck}
+
+Enter PostCodeC
+     [Arguments]    ${PostCodeC}
+     Input Text     ${PostCodeCheck}      ${PostCodeC}
+
+Click_CountryC
+    Click Element    ${CountryCheck}
+
+Enter CountryC
+     [Arguments]    ${CountryC}
+     Input Text     ${CountryCheck}      ${CountryC}
+
+Click_StateC
+   Click Element      ${RegionStateCheck}
+
+Select_CountryC
+   Click Element      ${SelectCountryC}
+
+Select_StateC
+   Click Element      ${SelectStateC}
+
+Click_continue1C
+   Click Element      ${ClickContinueC1}

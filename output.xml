@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.9.7 on win32)" generated="20240114 22:03:03.352" rpa="false" schemaversion="3">
-<suite id="s1" name="Wishlist" source="C:\Users\dell\PycharmProjects\naveenWeb\TestCases\wishlist.robot">
-<test id="s1-t1" name="LoginFunc" line="15">
+<robot generator="Robot 6.0.2 (Python 3.9.7 on win32)" generated="20240116 15:35:36.956" rpa="false" schemaversion="3">
+<suite id="s1" name="xATCcompare" source="C:\Users\dell\PycharmProjects\naveenWeb\TestCases\xATCcompare.robot">
+<test id="s1-t1" name="LoginFunc" line="27">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${SiteUrl}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20240114 22:03:05.125" level="INFO">Opening browser 'edge' to base url 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'.</msg>
-<status status="PASS" starttime="20240114 22:03:05.121" endtime="20240114 22:03:14.865"/>
+<msg timestamp="20240116 15:35:37.371" level="INFO">Opening browser 'edge' to base url 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'.</msg>
+<status status="PASS" starttime="20240116 15:35:37.370" endtime="20240116 15:35:41.039"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20240114 22:03:14.869" endtime="20240114 22:03:15.067"/>
+<status status="PASS" starttime="20240116 15:35:41.040" endtime="20240116 15:35:41.203"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${Click_login}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20240114 22:03:15.068" endtime="20240114 22:03:15.526"/>
+<status status="PASS" starttime="20240116 15:35:41.203" endtime="20240116 15:35:41.269"/>
 </kw>
 <kw name="Click_R_Login" library="keywords">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Click_login}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:15.530" level="INFO">Clicking element '//div/a[text()='Login']'.</msg>
-<status status="PASS" starttime="20240114 22:03:15.528" endtime="20240114 22:03:16.131"/>
+<msg timestamp="20240116 15:35:41.272" level="INFO">Clicking element '//div/a[text()='Login']'.</msg>
+<status status="PASS" starttime="20240116 15:35:41.271" endtime="20240116 15:35:41.643"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:15.528" endtime="20240114 22:03:16.131"/>
+<status status="PASS" starttime="20240116 15:35:41.270" endtime="20240116 15:35:41.643"/>
 </kw>
 <kw name="Enter Email" library="keywords">
 <arg>${Email}</arg>
@@ -33,10 +33,10 @@
 <arg>${R_email}</arg>
 <arg>${Email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:16.135" level="INFO">Typing text 'yash5@yopmail.com' into text field '//input[@name='email']'.</msg>
-<status status="PASS" starttime="20240114 22:03:16.133" endtime="20240114 22:03:16.443"/>
+<msg timestamp="20240116 15:35:41.646" level="INFO">Typing text 'yash5@yopmail.com' into text field '//input[@name='email']'.</msg>
+<status status="PASS" starttime="20240116 15:35:41.645" endtime="20240116 15:35:41.862"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:16.132" endtime="20240114 22:03:16.444"/>
+<status status="PASS" starttime="20240116 15:35:41.644" endtime="20240116 15:35:41.863"/>
 </kw>
 <kw name="Enter Password" library="keywords">
 <arg>${Pass}</arg>
@@ -44,104 +44,333 @@
 <arg>${Password1}</arg>
 <arg>${Password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:16.455" level="INFO">Typing text 'yash@123' into text field '//input[@name='password']'.</msg>
-<status status="PASS" starttime="20240114 22:03:16.452" endtime="20240114 22:03:16.724"/>
+<msg timestamp="20240116 15:35:41.867" level="INFO">Typing text 'yash@123' into text field '//input[@name='password']'.</msg>
+<status status="PASS" starttime="20240116 15:35:41.865" endtime="20240116 15:35:42.021"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:16.451" endtime="20240114 22:03:16.724"/>
+<status status="PASS" starttime="20240116 15:35:41.864" endtime="20240116 15:35:42.021"/>
 </kw>
 <kw name="Click_loginButton" library="keywords">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Login_1}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:16.727" level="INFO">Clicking element '//input[@value='Login']'.</msg>
-<status status="PASS" starttime="20240114 22:03:16.726" endtime="20240114 22:03:17.856"/>
+<msg timestamp="20240116 15:35:42.024" level="INFO">Clicking element '//input[@value='Login']'.</msg>
+<status status="PASS" starttime="20240116 15:35:42.023" endtime="20240116 15:35:42.615"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:16.725" endtime="20240114 22:03:17.856"/>
+<status status="PASS" starttime="20240116 15:35:42.022" endtime="20240116 15:35:42.615"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${Desktop1}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20240114 22:03:17.859" endtime="20240114 22:03:17.923"/>
+<status status="PASS" starttime="20240116 15:35:42.616" endtime="20240116 15:35:42.662"/>
+</kw>
+<kw name="Click_desktop" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Desktop1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:42.665" level="INFO">Clicking element '(//li/a[ text() = 'Desktops' ])[1]'.</msg>
+<status status="PASS" starttime="20240116 15:35:42.664" endtime="20240116 15:35:42.751"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:42.664" endtime="20240116 15:35:42.752"/>
 </kw>
 <kw name="Click_Search" library="keywords">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${SearchBar}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:17.926" level="INFO">Clicking element '//input[@name='search']'.</msg>
-<status status="PASS" starttime="20240114 22:03:17.925" endtime="20240114 22:03:18.032"/>
+<msg timestamp="20240116 15:35:42.756" level="INFO">Clicking element '//input[@name='search']'.</msg>
+<status status="PASS" starttime="20240116 15:35:42.754" endtime="20240116 15:35:42.856"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:17.924" endtime="20240114 22:03:18.032"/>
+<status status="PASS" starttime="20240116 15:35:42.753" endtime="20240116 15:35:42.856"/>
 </kw>
 <kw name="Enter SearchText" library="keywords">
-<arg>${Textt}</arg>
+<arg>${Text3}</arg>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${SearchBar}</arg>
 <arg>${SearchText}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:18.037" level="INFO">Typing text 'tab' into text field '//input[@name='search']'.</msg>
-<status status="PASS" starttime="20240114 22:03:18.035" endtime="20240114 22:03:18.166"/>
+<msg timestamp="20240116 15:35:42.859" level="INFO">Typing text 'MacBook Pro' into text field '//input[@name='search']'.</msg>
+<status status="PASS" starttime="20240116 15:35:42.858" endtime="20240116 15:35:43.001"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:18.033" endtime="20240114 22:03:18.167"/>
+<status status="PASS" starttime="20240116 15:35:42.857" endtime="20240116 15:35:43.002"/>
 </kw>
 <kw name="Click_Searchicon" library="keywords">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${searchicon}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:18.170" level="INFO">Clicking element '//button[@class='btn btn-default btn-lg']'.</msg>
-<status status="PASS" starttime="20240114 22:03:18.168" endtime="20240114 22:03:19.014"/>
+<msg timestamp="20240116 15:35:43.004" level="INFO">Clicking element '//button[@class='btn btn-default btn-lg']'.</msg>
+<status status="PASS" starttime="20240116 15:35:43.003" endtime="20240116 15:35:43.460"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:18.168" endtime="20240114 22:03:19.015"/>
-</kw>
-<kw name="Click_wishlist" library="keywords">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${ClickWishlist}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:19.018" level="INFO">Clicking element '(//button[@type='button'])[11]'.</msg>
-<status status="PASS" starttime="20240114 22:03:19.016" endtime="20240114 22:03:19.170"/>
-</kw>
-<status status="PASS" starttime="20240114 22:03:19.016" endtime="20240114 22:03:19.170"/>
-</kw>
-<kw name="Click_Totalwishlist" library="keywords">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${TotalWishlist}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:19.173" level="INFO">Clicking element '//a[@id='wishlist-total']'.</msg>
-<status status="PASS" starttime="20240114 22:03:19.172" endtime="20240114 22:03:19.945"/>
-</kw>
-<status status="PASS" starttime="20240114 22:03:19.171" endtime="20240114 22:03:19.945"/>
+<status status="PASS" starttime="20240116 15:35:43.002" endtime="20240116 15:35:43.460"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<arg>${RemoveWishlist}</arg>
+<arg>${ATCcompare}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20240114 22:03:19.946" endtime="20240114 22:03:19.994"/>
+<status status="PASS" starttime="20240116 15:35:43.461" endtime="20240116 15:35:43.502"/>
 </kw>
-<kw name="Click_Remove" library="keywords">
+<kw name="Click_ATCCmpr" library="keywords">
 <kw name="Click Element" library="SeleniumLibrary">
-<arg>${RemoveWishlist}</arg>
+<arg>${ATCcompare}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:19.997" level="INFO">Clicking element '//a[@data-original-title='Remove']'.</msg>
-<status status="PASS" starttime="20240114 22:03:19.995" endtime="20240114 22:03:20.864"/>
+<msg timestamp="20240116 15:35:43.504" level="INFO">Clicking element '//a[text()='MacBook Pro']/ancestor::div[@class='caption']/following-sibling::div[@class='button-group']//span'.</msg>
+<status status="PASS" starttime="20240116 15:35:43.503" endtime="20240116 15:35:43.580"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:19.995" endtime="20240114 22:03:20.865"/>
+<status status="PASS" starttime="20240116 15:35:43.502" endtime="20240116 15:35:43.580"/>
 </kw>
-<kw name="Click_continue1" library="keywords">
+<kw name="Click_ATcBtn" library="keywords">
 <kw name="Click Element" library="SeleniumLibrary">
-<arg>${ClickContinue1}</arg>
+<arg>${ATcBtn}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20240114 22:03:20.869" level="INFO">Clicking element '//a[text()='Continue']'.</msg>
-<status status="PASS" starttime="20240114 22:03:20.867" endtime="20240114 22:03:21.452"/>
+<msg timestamp="20240116 15:35:43.582" level="INFO">Clicking element '//a[@title='Shopping Cart']'.</msg>
+<status status="PASS" starttime="20240116 15:35:43.581" endtime="20240116 15:35:44.053"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:20.866" endtime="20240114 22:03:21.452"/>
+<status status="PASS" starttime="20240116 15:35:43.581" endtime="20240116 15:35:44.053"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
-<arg>10</arg>
+<arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20240114 22:03:31.488" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" starttime="20240114 22:03:21.477" endtime="20240114 22:03:31.488"/>
+<msg timestamp="20240116 15:35:46.072" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20240116 15:35:44.054" endtime="20240116 15:35:46.072"/>
 </kw>
-<status status="PASS" starttime="20240114 22:03:05.102" endtime="20240114 22:03:31.489"/>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>${Text3}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20240116 15:35:46.168" level="INFO">Current page contains text 'MacBook Pro'.</msg>
+<status status="PASS" starttime="20240116 15:35:46.076" endtime="20240116 15:35:46.168"/>
+</kw>
+<kw name="UPdateQuantiry" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${UpdateQuantity}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:46.174" level="INFO">Clicking element '//div[@class='input-group btn-block']//input'.</msg>
+<status status="PASS" starttime="20240116 15:35:46.173" endtime="20240116 15:35:46.304"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:46.172" endtime="20240116 15:35:46.304"/>
+</kw>
+<kw name="Enter updateQuantiryV" library="keywords">
+<arg>${Quantity}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${UpdateQuantity}</arg>
+<arg>${updateQuantiryV}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:46.309" level="INFO">Typing text '2' into text field '//div[@class='input-group btn-block']//input'.</msg>
+<status status="PASS" starttime="20240116 15:35:46.307" endtime="20240116 15:35:46.455"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:46.306" endtime="20240116 15:35:46.456"/>
+</kw>
+<kw name="Click_Checkout1" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ChecKout}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:46.458" level="INFO">Clicking element '//a[text()='Checkout']'.</msg>
+<status status="PASS" starttime="20240116 15:35:46.457" endtime="20240116 15:35:47.122"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:46.456" endtime="20240116 15:35:47.123"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240116 15:35:50.137" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20240116 15:35:47.124" endtime="20240116 15:35:50.137"/>
+</kw>
+<kw name="Click_FirstNameC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${FirstNameCheck}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:50.140" level="INFO">Clicking element '//input[@name='firstname']'.</msg>
+<status status="PASS" starttime="20240116 15:35:50.139" endtime="20240116 15:35:50.227"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:50.138" endtime="20240116 15:35:50.227"/>
+</kw>
+<kw name="Enter FirstNameC" library="keywords">
+<arg>${firsttname}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${FirstNameCheck}</arg>
+<arg>${FirstNameC}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:50.231" level="INFO">Typing text 'Yash Raj' into text field '//input[@name='firstname']'.</msg>
+<status status="PASS" starttime="20240116 15:35:50.229" endtime="20240116 15:35:50.376"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:50.228" endtime="20240116 15:35:50.376"/>
+</kw>
+<kw name="Click_LastNameC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${LastNameCheck}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:50.378" level="INFO">Clicking element '//input[@name='lastname']'.</msg>
+<status status="PASS" starttime="20240116 15:35:50.377" endtime="20240116 15:35:50.461"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:50.377" endtime="20240116 15:35:50.461"/>
+</kw>
+<kw name="Enter LastNameC" library="keywords">
+<arg>${lastnamex}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${LastNameCheck}</arg>
+<arg>${LastNameC}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:50.465" level="INFO">Typing text 'Singh' into text field '//input[@name='lastname']'.</msg>
+<status status="PASS" starttime="20240116 15:35:50.464" endtime="20240116 15:35:50.582"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:50.462" endtime="20240116 15:35:50.582"/>
+</kw>
+<kw name="Click_CompanyC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CompanyCheck}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:50.585" level="INFO">Clicking element '//input[@name='company']'.</msg>
+<status status="PASS" starttime="20240116 15:35:50.584" endtime="20240116 15:35:50.672"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:50.584" endtime="20240116 15:35:50.673"/>
+</kw>
+<kw name="Enter CompanyC" library="keywords">
+<arg>${comapany}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CompanyCheck}</arg>
+<arg>${CompanyC}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:50.677" level="INFO">Typing text 'VauleCoders' into text field '//input[@name='company']'.</msg>
+<status status="PASS" starttime="20240116 15:35:50.675" endtime="20240116 15:35:50.809"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:50.674" endtime="20240116 15:35:50.809"/>
+</kw>
+<kw name="Click_Address1C" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Address1Check}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:50.811" level="INFO">Clicking element '//input[@name='address_1']'.</msg>
+<status status="PASS" starttime="20240116 15:35:50.810" endtime="20240116 15:35:50.902"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:50.810" endtime="20240116 15:35:50.903"/>
+</kw>
+<kw name="Enter Address1C" library="keywords">
+<arg>${Address1x}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Address1Check}</arg>
+<arg>${Address1C}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:50.906" level="INFO">Typing text 'Raipur' into text field '//input[@name='address_1']'.</msg>
+<status status="PASS" starttime="20240116 15:35:50.905" endtime="20240116 15:35:51.035"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:50.904" endtime="20240116 15:35:51.035"/>
+</kw>
+<kw name="Click_Address2C" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Address2Check}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:51.037" level="INFO">Clicking element '//input[@name='address_2']'.</msg>
+<status status="PASS" starttime="20240116 15:35:51.037" endtime="20240116 15:35:51.113"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:51.036" endtime="20240116 15:35:51.114"/>
+</kw>
+<kw name="Enter Address2C" library="keywords">
+<arg>${Address2x}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Address2Check}</arg>
+<arg>${Address2C}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:51.118" level="INFO">Typing text 'Gautam budh nagar' into text field '//input[@name='address_2']'.</msg>
+<status status="PASS" starttime="20240116 15:35:51.117" endtime="20240116 15:35:51.268"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:51.115" endtime="20240116 15:35:51.268"/>
+</kw>
+<kw name="Click_CityC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CityCheck}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:51.271" level="INFO">Clicking element '//input[@name='city']'.</msg>
+<status status="PASS" starttime="20240116 15:35:51.270" endtime="20240116 15:35:51.355"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:51.269" endtime="20240116 15:35:51.355"/>
+</kw>
+<kw name="Enter CityC" library="keywords">
+<arg>${Cityx}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CityCheck}</arg>
+<arg>${CityC}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:51.358" level="INFO">Typing text 'Noida' into text field '//input[@name='city']'.</msg>
+<status status="PASS" starttime="20240116 15:35:51.357" endtime="20240116 15:35:51.470"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:51.356" endtime="20240116 15:35:51.471"/>
+</kw>
+<kw name="Click_PostCodeC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${PostCodeCheck}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:51.475" level="INFO">Clicking element '//input[@name='postcode']'.</msg>
+<status status="PASS" starttime="20240116 15:35:51.474" endtime="20240116 15:35:51.562"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:51.473" endtime="20240116 15:35:51.563"/>
+</kw>
+<kw name="Enter PostCodeC" library="keywords">
+<arg>${PostCodex}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${PostCodeCheck}</arg>
+<arg>${PostCodeC}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:51.569" level="INFO">Typing text '201301' into text field '//input[@name='postcode']'.</msg>
+<status status="PASS" starttime="20240116 15:35:51.568" endtime="20240116 15:35:51.682"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:51.566" endtime="20240116 15:35:51.683"/>
+</kw>
+<kw name="Click_CountryC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CountryCheck}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:51.686" level="INFO">Clicking element '//select[@name='country_id']'.</msg>
+<status status="PASS" starttime="20240116 15:35:51.684" endtime="20240116 15:35:51.891"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:51.683" endtime="20240116 15:35:51.891"/>
+</kw>
+<kw name="Select_CountryC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${SelectCountryC}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:51.907" level="INFO">Clicking element '//select[@name='country_id']//option[@value='99']'.</msg>
+<status status="PASS" starttime="20240116 15:35:51.906" endtime="20240116 15:35:52.044"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:51.905" endtime="20240116 15:35:52.045"/>
+</kw>
+<kw name="Click_StateC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${RegionStateCheck}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:52.050" level="INFO">Clicking element '//select[@id='input-payment-zone']'.</msg>
+<status status="PASS" starttime="20240116 15:35:52.049" endtime="20240116 15:35:52.214"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:52.048" endtime="20240116 15:35:52.215"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240116 15:35:54.234" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20240116 15:35:52.220" endtime="20240116 15:35:54.235"/>
+</kw>
+<kw name="Select_StateC" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${SelectStateC}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:54.239" level="INFO">Clicking element '//select[@name='zone_id']//option[@value='1505']'.</msg>
+<status status="PASS" starttime="20240116 15:35:54.237" endtime="20240116 15:35:54.359"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:54.236" endtime="20240116 15:35:54.360"/>
+</kw>
+<kw name="Click_continue1C" library="keywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ClickContinueC1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240116 15:35:54.367" level="INFO">Clicking element '//input[@value='Continue']'.</msg>
+<status status="PASS" starttime="20240116 15:35:54.364" endtime="20240116 15:35:54.731"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:54.363" endtime="20240116 15:35:54.732"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240116 15:35:57.747" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20240116 15:35:54.735" endtime="20240116 15:35:57.747"/>
+</kw>
+<status status="PASS" starttime="20240116 15:35:37.369" endtime="20240116 15:35:57.749"/>
 </test>
-<status status="PASS" starttime="20240114 22:03:03.357" endtime="20240114 22:03:31.492"/>
+<status status="PASS" starttime="20240116 15:35:36.960" endtime="20240116 15:35:57.754"/>
 </suite>
 <statistics>
 <total>
@@ -150,7 +379,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Wishlist">Wishlist</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="xATCcompare">xATCcompare</stat>
 </suite>
 </statistics>
 <errors>
